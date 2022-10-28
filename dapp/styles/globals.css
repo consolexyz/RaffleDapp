@@ -14,6 +14,37 @@ a {
 * {
   box-sizing: border-box;
 }
+.header{
+  padding: 1.5% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.enterRaffle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+.custom-button {
+  font-size: 15px;
+  display: inline-block;
+  padding: 1em;
+  /* margin: 1em; */
+  /* width: 100px; */
+  text-decoration: none;
+  color:black;
+  background-image: linear-gradient(black , black ), linear-gradient( white, white );
+  background-size: 0 100%, auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all .2s ease-out;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  color: #fff;
+  background-size: 100% 100%, auto;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
